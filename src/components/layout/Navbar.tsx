@@ -71,6 +71,7 @@ const Navbar = () => {
         </Link>
 
         <ul className="hidden list-none flex-row gap-10 sm:flex">
+          {/*
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -81,6 +82,10 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          */}
+          <li>
+            <a href="../../MyCV.pdf" target="_blank" type="application/octet-stream" download="MyCV.pdf">Download CV</a>
+          </li>
         </ul>
 
         <div className="flex flex-1 items-center justify-end sm:hidden">
