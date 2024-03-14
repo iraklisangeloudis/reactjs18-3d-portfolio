@@ -1,14 +1,14 @@
 import { BrowserRouter } from "react-router-dom";
 
 import {
-  About,
+  //About,
   Contact,
-  Experience,
-  Feedbacks,
+  //Experience,
+  //Feedbacks,
   Hero,
   Navbar,
-  Tech,
-  Works,
+  //Tech,
+  //Works,
   StarsCanvas,
 } from "./components";
 import { useEffect } from "react";
